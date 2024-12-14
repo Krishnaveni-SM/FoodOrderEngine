@@ -1,0 +1,36 @@
+/* Your existing CSS code for the admin panel can be reused here */
+
+/* Additional styles specific to the order management module */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+table th {
+    background: #333;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.order-details {
+    margin-top: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.order-details h3 {
+    margin-top: 0;
+    font-size: 18px;
+}

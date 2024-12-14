@@ -1,0 +1,38 @@
+/* Your existing CSS code for the admin panel can be reused here */
+
+/* Additional styles specific to the dashboard */
+.quick-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.stat-box {
+    flex: 1;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.stat-box h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li:before {
+    content: "\2022"; /* Use a bullet point character */
+    margin-right: 5px;
+    color: #333;
+}
